@@ -256,11 +256,11 @@ def get_wish():
     time = datetime.now(tz)
     now = time.strftime("%H")
     if now < "12":
-        status = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ 🌞"
+        status = "ꜱʜᴀᴅᴏᴡ'ꜱ ᴅᴀᴡɴ 🌄"
     elif now < "18":
-        status = "ɢᴏᴏᴅ ᴀꜰᴛᴇʀɴᴏᴏɴ 🌗"
+        status = "ᴅᴀʏ'ꜱ ᴅᴇꜱᴄᴇɴᴛ 🌇"
     else:
-        status = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌘"
+        status = "ᴇᴠᴇɴɪɴɢ ᴡʜɪꜱᴘᴇʀꜱ 🌆"
     return status
 
 def get_media_from_message(message: "Message") -> Any:
