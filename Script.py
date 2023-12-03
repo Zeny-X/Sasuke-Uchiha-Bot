@@ -1,18 +1,18 @@
 class script(object):
     
-    START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
+    START_TXT = """<b>ꜱᴀʟᴜᴛᴀᴛɪᴏɴꜱ, ꜰᴇʟʟᴏᴡ ɴɪɴᴊᴀ! {}, <i>{}</i> ✨
     
-ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ꜱᴀɴᴄᴛᴜᴍ ᴏꜰ ꜱᴀꜱᴜᴋᴇ ᴜᴄʜɪʜᴀ🔮. ꜱᴜᴍᴍᴏɴ ᴍᴇ ɪɴᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴛʜᴇ ᴘᴏᴡᴇʀ ᴏꜰ 🔥 ᴀɴᴅ ᴡɪᴛɴᴇꜱꜱ ᴛʜᴇ ᴘʀᴏᴡᴇꜱꜱ ᴛʜᴀᴛ ʟɪᴇꜱ ᴡɪᴛʜɪɴ🗡. ɪ, ᴛʜᴇ ꜱʜᴀʀᴇʀ ᴏꜰ ᴀɴɪᴍᴇ ᴇᴘɪꜱᴏᴅᴇꜱ, ꜱᴛᴀɴᴅ ʀᴇᴀᴅʏ. ᴇᴍʙᴀʀᴋ ᴏɴ ʏᴏᴜʀ ᴊᴏᴜʀɴᴇʏ ɴᴏᴡ🪄, ᴀꜱ ᴛʜᴇ ꜰʟᴀᴍᴇꜱ ᴏꜰ ᴇxᴄɪᴛᴇᴍᴇɴᴛ ᴀɴᴅ ʟɪɢʜᴛɴɪɴɢ ᴏꜰ ᴀᴅᴠᴇɴᴛᴜʀᴇ ᴀᴡᴀɪᴛ! 🔥⚡</b>"""
 
-    MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
+    MY_ABOUT_TXT = """★ Server: <a href=https://render.com>Render</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: Hansaka Anuhas
-★ Username: @Hansaka_Anuhas
-★ ID: <code>5493832202</code>
-★ Country: Sri Lanka 🇱🇰"""
+    MY_OWNER_TXT = """★ Name: ɪᴛᴀᴄʜɪ ᴜᴄʜɪʜᴀ
+★ Username: @Itachiofthekonoha
+★ ID: <code>1935368808</code>
+★ Country: ɪɴᴅɪᴀ 🇮🇳"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
@@ -44,13 +44,14 @@ Total members - <code>{}</code>"""
 
 ★ Message: {}"""
 
-    NOT_FILE_TXT = """👋 Hello {},
+    NOT_FILE_TXT = """🌟 ꜱʜᴀᴅᴏᴡ-ꜱᴇᴇᴋᴇʀ {},
 
-I can't find the <b>{}</b> in my database! 🥲
+ɪ'ᴠᴇ ꜱᴇᴀʀᴄʜᴇᴅ, ʙᴜᴛ ᴛʜᴇ <b>{}</b> ᴇʟᴜᴅᴇꜱ ᴍʏ ɢʀᴀꜱᴘ! 🥲
 
-👉 Google Search and check your spelling is correct.
-👉 Please read the Instructions to get better results.
-👉 Or not been released yet."""
+👉 ᴠᴇɴᴛᴜʀᴇ ɪɴᴛᴏ ᴛʜᴇ ʀᴇᴀʟᴍꜱ ᴏꜰ ɢᴏᴏɢʟᴇ, ᴄᴏɴꜰɪʀᴍɪɴɢ ᴛʜᴇ ᴀᴄᴄᴜʀᴀᴄʏ ᴏꜰ ʏᴏᴜʀ ɪɴᴄᴀɴᴛᴀᴛɪᴏɴ.!
+👉 ʀᴇꜰɪɴᴇ ʏᴏᴜʀ ᴛᴇᴄʜɴɪQᴜᴇ ʙʏ ʀᴇᴠɪᴇᴡɪɴɢ ᴛʜᴇ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ.
+👉 ᴛʜᴇ ꜰɪʟᴇ ᴍᴀʏ ɴᴏᴛ ʜᴀᴠᴇ ᴇɴɢʀᴀᴠᴇᴅ ɪᴛꜱ ᴘʀᴇꜱᴇɴᴄᴇ ɪɴ ᴍʏ ꜱᴄʀᴏʟʟꜱ.
+👉 ɪᴛ ᴍɪɢʜᴛ ꜱᴛɪʟʟ ʙᴇ ᴄᴏɴᴄᴇᴀʟᴇᴅ ɪɴ ᴛʜᴇ ꜱʜᴀᴅᴏᴡꜱ, ᴀᴡᴀɪᴛɪɴɢ ʀᴇʟᴇᴀꜱᴇ."""
     
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
@@ -96,12 +97,11 @@ I can't find the <b>{}</b> in my database! 🥲
 
 🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
 
-    WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
+    WELCOME_TEXT = """🔮ꜱɪʟʜᴏᴜᴇᴛᴛᴇ {mention} ✨, ᴠᴇɴᴛᴜʀᴇ ɪɴᴛᴏ ᴛʜᴇ ʀᴇᴀʟᴍ ᴏꜰ {title} Begin Your Anime Odyssey With Me! 🔥⚡"""
 
-    HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
+    HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 🌟</spoiler></b>"""
     
-    ADMIN_COMMAND_TXT = """<b>Here is bot admin commands 👇
-
+    ADMIN_COMMAND_TXT = """<b>🪄ᴍᴀꜱᴛᴇʀ ᴛʜᴇ ᴀᴅᴍɪɴ ꜱᴋɪʟʟꜱ🪄
 /index_channels - to check how many index channel id added
 /stats - to get bot status
 /delete - to delete files using query
@@ -119,7 +119,7 @@ I can't find the <b>{}</b> in my database! 🥲
 /invite_link - to generate invite link
 /index - to index bot accessible channels</b>"""
     
-    USER_COMMAND_TXT = """<b>Here is bot user commands 👇
+    USER_COMMAND_TXT = """<b>🗡ᴇᴍʙᴀʀᴋ ᴏɴ ʏᴏᴜʀ ɴɪɴᴊᴀ ᴘᴀᴛʜ ᴡɪᴛʜ ᴛʜᴇꜱᴇ ꜱʜɪɴᴏʙɪ ꜱᴄʀᴏʟʟꜱ🗡
 
 /start - to check bot alive or not
 /settings - to change group settings as your wish
@@ -132,12 +132,12 @@ I can't find the <b>{}</b> in my database! 🥲
 /id - to check group or channel id
 /openai - Find solution to any question with ChatGPT</b>"""
 
-    SOURCE_TXT = """<b>ʙᴏᴛ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀʏ -
+    SOURCE_TXT = """<b>-🔗𝗦𝗛𝗔𝗥𝗜𝗡𝗚𝗔𝗡 𝗖𝗢𝗗𝗘 -
 
-- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
+- ☯ᴡɪᴛɴᴇꜱꜱ ᴛʜᴇ ʜɪᴅᴅᴇɴ ᴀʀᴛꜱ ɪɴ ᴛʜɪꜱ ᴏᴘᴇɴ-ꜱᴏᴜʀᴄᴇ ᴍᴀꜱᴛᴇʀʏ.
 
 - ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/HansakaAnuhas-TG/AutoFilterBot-Beta>ʜᴇʀᴇ</a>
 
-ᴅᴇᴠʟᴏᴘᴇʀ -
+🪄𝗦𝗛𝗜𝗡𝗢𝗕𝗜 𝗖𝗥𝗘𝗔𝗧𝗢𝗥𝗦 -
 <a href=https://telegram.me/Hansaka_Anuhas>ʜᴀɴsᴀᴋᴀ</a>
 <a href=https://telegram.me/Technicalaks123>ᴀᴋs</a></b>"""
