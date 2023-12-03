@@ -30,7 +30,7 @@ async def start(client, message):
         wish = get_wish()
         btn = [[
             InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ⚡️', url=UPDATES_LINK),
-            InlineKeyboardButton('💡 Support Group 💡', url=SUPPORT_LINK)
+            InlineKeyboardButton('🎬 ᴏᴜʀ ɢʀᴏᴜᴘ 🎬', url=SUPPORT_LINK)
         ]]
         await message.reply(text=f"<b>ʜᴇʏ {message.from_user.mention}, <i>{wish}</i>\nʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ??</b>", reply_markup=InlineKeyboardMarkup(btn))
         return 
@@ -45,18 +45,18 @@ async def start(client, message):
     
     if (len(message.command) != 2) or (len(message.command) == 2 and message.command[1] == 'start'):
         buttons = [[
-            InlineKeyboardButton("+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +", url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+            InlineKeyboardButton("🔥 ꜱᴜᴍᴍᴏɴ ᴍᴇ 🔥", url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ɪɴʟɪɴᴇ 🔍', switch_inline_query_current_chat='')
+            InlineKeyboardButton('📁 sᴇᴀʀᴄʜ ꜰɪʟᴇꜱ 📁', switch_inline_query_current_chat='')
         ],[
             InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ⚡️', url=UPDATES_LINK),
-            InlineKeyboardButton('💡 Support Group 💡', url=SUPPORT_LINK)
+            InlineKeyboardButton('🎬 ᴏᴜʀ ɢʀᴏᴜᴘ 🎬', url=SUPPORT_LINK)
         ],[
-            InlineKeyboardButton('👨‍🚒 ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='my_about'),
-            InlineKeyboardButton('👤 ᴏᴡɴᴇʀ', callback_data='my_owner')
+            InlineKeyboardButton('🪄 ᴍʏ ᴘᴏᴡᴇʀꜱ 🪄', callback_data='help'),
+            InlineKeyboardButton('💫 ᴀʙᴏᴜᴛ', callback_data='my_about'),
+            InlineKeyboardButton('🗡 ᴏᴡɴᴇʀ 🗡', callback_data='my_owner')
         ],[
-            InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ʙᴏᴛ 💰', callback_data='earn')
+            InlineKeyboardButton('💴 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💴', callback_data='earn')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -132,7 +132,7 @@ async def start(client, message):
                 InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f"stream#{file.file_id}")
             ],[
                 InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ⚡️', url=UPDATES_LINK),
-                InlineKeyboardButton('💡 Support Group 💡', url=SUPPORT_LINK)
+                InlineKeyboardButton('🎬 ᴏᴜʀ ɢʀᴏᴜᴘ 🎬', url=SUPPORT_LINK)
             ],[
                 InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
             ]]
@@ -170,7 +170,7 @@ async def start(client, message):
         InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f"stream#{file_id}")
     ],[
         InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ⚡️', url=UPDATES_LINK),
-        InlineKeyboardButton('💡 Support Group 💡', url=SUPPORT_LINK)
+        InlineKeyboardButton('🎬 ᴏᴜʀ ɢʀᴏᴜᴘ 🎬', url=SUPPORT_LINK)
     ],[
         InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
     ]]
@@ -501,7 +501,7 @@ async def telegraph_upload(bot, message):
         os.remove(media)
     except:
         pass
-    await text.edit_text(f"<b>❤️ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ ᴄᴏᴍᴘʟᴇᴛᴇᴅ 👇</b>\n\n<code>https://telegra.ph/{response[0]}</code></b>")
+    await text.edit_text(f"<b>💫 ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ ᴄᴏᴍᴘʟᴇᴛᴇᴅ 👇</b>\n\n<code>https://telegra.ph/{response[0]}</code></b>")
 
 
 @Client.on_message(filters.command('ping'))
